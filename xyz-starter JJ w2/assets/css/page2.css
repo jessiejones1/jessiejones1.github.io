@@ -1,0 +1,268 @@
+/*
+*{
+	outline: 1px solid black;
+}*/
+
+
+body{
+	background-color: orange;
+}
+
+.empty {
+	width: 10%;
+	display: inline-block;
+}
+
+
+
+.date {
+/*	font-size: 10vw;*/
+	font-family: times new roman;
+
+/*	text-align: right;
+*/
+	color:#FAFAD2;
+
+/*	padding-right: 30vw;*/
+
+
+/*	border:1px solid black;*/
+	display:inline-block:
+	width:50%;
+	padding-top:1vw;
+	padding-right:1vw;
+	font-size:2vw;
+	text-align: right;
+}
+
+
+.title {
+/*	font-size: 3vw;*/
+	font-family: times new roman;
+	text-transform: uppercase;
+
+/*	text-align: right;*/
+
+	color:#FAFAD2;
+
+	letter-spacing: 1vw;
+
+/*	padding-right: 30vw;*/
+
+
+/*	border:1px solid black;*/
+/*	display:inline-block;*/
+/*	width:30%;*/
+/*	padding:3vw;*/
+	padding-top:1vw;
+	font-size:2vw;
+	text-align: center;
+}
+
+
+
+.MADA {
+/*	font-size: 10vw;*/
+	font-family: times new roman;
+	font-weight:bold;
+	text-transform: uppercase;
+
+/*	text-align: center;*/
+
+	color:#FAFAD2;
+
+	letter-spacing: 7vw;
+
+/*	padding-left: 30vw;*/
+
+/*	border:1px solid black;*/
+	/*display:inline-block;*/
+	/*width:50%;*/
+	display:inline-block:
+	width:50%;
+	padding-top:1vw;
+	padding-right:1vw;
+	font-size:6vw;
+	/*text-align: left;*/
+
+/*	position:fixed;*/
+	top:5vw;
+	left:3vw;
+	width:100px;
+}
+
+
+
+
+
+.Make {
+	font-size: 9vh;
+	font-family: Arial black;
+	font-weight:bold;
+
+	color: #000000;
+
+	padding-left:10vw;
+	padding-top: 150px;
+
+}
+
+
+
+
+.word1 {
+	font-size: 18vh;
+	font-family: Arial black;
+	font-weight:bold;
+	text-transform: uppercase;
+
+	color: #8B0000;
+
+/*	padding-left:10vw;*/
+	padding-top: 70px;
+
+	text-align:left;
+}
+
+.word2 {
+	font-size: 18vh;
+	font-family: Arial black;
+	font-weight:bold;
+	text-transform: uppercase;
+
+	color: #8B0000;
+
+	padding-left:10vw;
+	padding-top: 70px;
+
+	text-align: center;
+
+	animation: secword 5s infinite alternate;
+}
+
+
+.Again {
+	font-size: 9vh;
+	font-family: Arial black;
+	font-weight:bold;
+
+	color: #000000;
+
+	padding-right:10vw;
+/*	padding-top: 150px;*/
+
+	text-align: right;
+
+	animation: again 5s infinite alternate;
+
+}
+
+
+.dash {
+	font-size:6vw;
+	font-family: Arial black;
+	font-weight:bold;
+	text-transform: uppercase;
+
+	color: #8B0000;
+
+	padding-right:10vw;
+	padding-bottom: 10px;
+
+	text-align: right;
+
+}
+
+
+
+.word3 {
+	font-size:6vw;
+	font-family: Arial black;
+	font-weight:bold;
+	text-transform: uppercase;
+
+	color: #8B0000;
+
+	padding-right:10vw;
+	padding-bottom: 10px;
+
+	text-align: right;
+
+}
+
+
+
+
+@keyframes secword {
+
+	0%{
+		color:red;
+		margin-left:20px;
+	}
+
+	30%{
+		color:#FF6347;
+	}
+
+	50%{
+		color:lightpink;
+		margin-left:50px;
+	}
+
+	75%{
+		color:purple;
+	}
+
+	100%{
+		color:#800000;
+		margin-left:20px;
+	}
+
+}
+
+
+
+
+
+@keyframes again {
+
+	0%{
+
+		padding-top: 10vh;
+	}
+
+	30%{
+
+	}
+
+	50%{
+	}
+
+	75%{
+
+	}
+
+	100%{
+		padding-top: 30vh;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

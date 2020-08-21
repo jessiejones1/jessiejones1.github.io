@@ -1,0 +1,188 @@
+
+
+
+
+body{
+	background-color: red;
+}
+
+
+
+
+
+.MADA {
+	font-size:20px; 
+	font-family: Blippo;
+	font-weight:bold;
+/*	transform: skew(180deg);*/
+	transform: rotate(90deg);
+
+	color: #B22222;
+
+/*	padding-right:100px;*/
+	padding-top: 100px;
+
+
+	text-align: right;
+	position: fixed;
+	top:30%;
+	right:6vw;
+
+}
+
+
+.title    {
+	font-size:20px; 
+	font-family: Blippo;
+	font-weight:bold;
+/*	transform: skew(40deg);*/
+	transform: rotate(90deg);
+
+	color: #B22222;
+
+/*	padding-right:100px;*/
+	padding-top: 100px;
+
+
+	text-align: right;
+	position: fixed;
+	top:30%;
+	right:6vw;
+}
+
+
+
+.date    {
+	font-size:200px; 
+	font-family: Blippo;
+	font-weight:bold;
+/*	transform: skew(40deg);*/
+	transform: rotate(90deg);
+
+	color: #B22222;
+
+/*	padding-right:100px;*/
+	padding-top: 100px;
+
+
+	text-align: right;
+	position: fixed;
+	top:30%;
+	right:6vw;
+}
+
+
+
+
+
+.Make {
+	font-size:40px; 
+	font-family: Arial;
+	font-weight:bold;
+/*	transform: skew(40deg);*/
+
+	color: #B22222;
+
+	padding-left:6vw;
+	padding-top: 70px;
+
+
+	text-align: left;
+}
+
+.word1and2 {
+	font-size:60px; 
+	font-family: Arial;
+	font-weight:bold;
+	display: block;
+	transform: skew(10deg);
+
+	color: #B22222;
+
+	padding-top: 70px;
+
+	text-align: left;
+}
+
+
+.word1  {
+	padding-left: 10vw;
+}
+
+.word2  {
+	padding-left: 20vw;
+}
+
+
+
+.Again   {
+	font-size:40px; 
+	font-family: Arial;
+	font-weight:bold;
+/*	transform: skew(40deg);*/
+
+	color: #B22222;
+
+	padding-left:6vw;
+	padding-top: 70px;
+
+
+	text-align: left;
+}
+
+
+
+.dash  {
+	font-size:80px; 
+	font-family: Arial
+	font-weight:bold;
+	transform: skew(10deg);
+
+	color: #000000;
+
+	padding-left:6vw;
+	padding-top: 70px;
+
+
+	text-align: left;
+}
+
+
+.word3  {
+	font-size:80px; 
+	font-family: Arial;
+	font-weight:bold;
+	transform: skew(10deg);
+
+	color: #000000;
+
+	padding-left:6vw;
+	padding-top: 70px;
+
+
+	text-align: left;
+}
+
+
+
+
+.MADA2   {
+	font-size:40px; 
+	font-family: Arial;
+	font-weight:bold;
+/*	transform: skew(40deg);*/
+
+	color: #B22222;
+
+	padding-left:6vw;
+	padding-top: 70px;
+
+
+	text-align: left;
+}
+
+
+
+
+
+

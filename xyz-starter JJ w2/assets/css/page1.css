@@ -1,0 +1,118 @@
+
+body {
+	background-color: #8B0000;
+}
+
+
+
+.date {
+	font-size:100px;
+	font-family: Blippo;
+
+	text-align: left;
+
+	padding-top: 100px
+}
+
+
+.title {
+	font-size:80px;
+	font-family: Blippo;
+
+	text-align: left;
+}
+
+
+.MADA {
+	font-size:240px; 
+	font-family: Blippo;
+	font-weight:bold;
+
+	color: #B22222;
+
+	text-align: left;
+}
+
+
+
+
+
+.Make {
+	font-size: 80px;
+	font-family: Blippo;
+	font-weight:bold;
+	
+	padding-left:10vw;
+	padding-top: 70px;
+
+}
+
+
+.word1 {
+	font-size: 120px;
+	font-family: Arial black;
+	font-weight:bold;
+	
+	color:salmon;
+	
+	text-align:center;
+
+	padding-left:30vw;
+
+
+
+}
+
+.word2 {
+	font-size: 120px;
+	font-family: Arial black;
+	font-weight:bold;
+	
+	color:salmon;
+
+	text-align:center;
+
+	padding-left:20vw;
+}
+
+
+
+.Again {
+	font-size: 80px;
+	font-family: Blippo;
+	font-weight:bold;
+
+	text-align: right;
+
+	padding-right:10vw;
+}
+
+.dash {
+	font-size: 60px;
+	font-family: Arial black;
+
+	color:salmon;
+
+	text-align:right;
+
+	padding-bottom: -40px;
+}
+
+
+.word3 {
+	font-size: 60px;
+	font-family: Arial;
+
+	color:salmon;
+
+	text-align:right;
+
+	padding-bottom: -40px;
+	padding-right:10vw;
+}
+
+
+
+
+
+
