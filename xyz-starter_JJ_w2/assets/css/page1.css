@@ -6,31 +6,36 @@ body {
 
 
 .date {
-	font-size:100px;
-	font-family: Blippo;
-
-	text-align: left;
-
-	padding-top: 100px
-}
-
-
-.title {
 	font-size:80px;
 	font-family: Blippo;
 
 	text-align: left;
+
+	padding-top: 100px;
+	margin-left: 5vw;
+}
+
+
+.title {
+	font-size:60px;
+	font-family: Blippo;
+
+	text-align: left;
+	margin-left: 5vw;
 }
 
 
 .MADA {
-	font-size:240px; 
+	font-size:200px; 
 	font-family: Blippo;
 	font-weight:bold;
 
 	color: #B22222;
 
 	text-align: left;
+
+	padding-top: 10px;
+	margin-left: 5vw;
 }
 
 
@@ -43,7 +48,9 @@ body {
 	font-weight:bold;
 	
 	padding-left:10vw;
-	padding-top: 70px;
+	padding-top: 50px;
+	
+	animation: make 10s infinite alternate;
 
 }
 
@@ -85,6 +92,8 @@ body {
 	text-align: right;
 
 	padding-right:10vw;
+
+	animation: again 10s infinite alternate;
 }
 
 .dash {
@@ -109,6 +118,42 @@ body {
 
 	padding-bottom: -40px;
 	padding-right:10vw;
+}
+
+
+
+
+@keyframes make {
+	0%{
+		margin-left:-300px;
+	}
+
+	50%{
+		margin-left:20px;
+	}
+
+	100%{
+		margin-left:-300px;
+	}
+
+}
+
+
+
+
+@keyframes again {
+	0%{
+		margin-right:-300px;
+	}
+
+	50%{
+		margin-right:20px;
+	}
+
+	100%{
+		margin-right:-300px;
+	}
+
 }
 
 
