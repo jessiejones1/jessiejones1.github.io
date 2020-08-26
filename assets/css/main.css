@@ -1,9 +1,64 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: Arial black,serif;
+	font-size: 80px;
+	background-color:#DC143C;
+	text-transform: uppercase;
+	font-weight: bold
 }
 
-a {
-	color:red;
+
+
+
+.date {
+	color:pink;
+	font-size:100px;
+	text-align: left;
+	padding-top: 200px;
+
 }
+
+.title {
+	color:pink;
+	font-size:40px;
+	text-align: left;
+}
+
+.MADA {
+	color:pink;
+	font-size:240px; 
+	text-align: left;
+	text-shadow: 0 0 9px white;
+}
+
+
+
+
+.jj {
+	color:lightpink;
+	text-align:center;
+	font-size: 120px;
+}
+
+.DPub {
+	color:lightpink;
+	font-size: 40px;
+	text-align: right;
+
+}
+
+
+.xyz1 {
+	color:lightpink;
+	font-size: 40px;
+	text-align: right;
+}
+
+.xyz2 {
+	color:lightpink;
+	font-size: 40px;
+	text-align: right;
+}
+
+
+
 
