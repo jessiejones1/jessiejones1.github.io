@@ -1,10 +1,10 @@
-.date {
-	color:pink;
-	font-size:100px;
-	text-align: left;
-	padding-top: 200px;
-	transform: skew(10deg);
 
+.MADA {
+	color:pink;
+	font-size:240px; 
+	text-align: left;
+	text-shadow: 0 0 9px white;
+	transform: skew(10deg);
 }
 
 
@@ -29,15 +29,25 @@ body {
 	transform: skew(10deg);
 }
 
-.MADA {
+
+
+.welcome {
 	color:pink;
-	font-size:240px; 
+	font-size:100px;
 	text-align: left;
-	text-shadow: 0 0 9px white;
+	padding-top: 200px;
 	transform: skew(10deg);
+
 }
 
 
+.about {
+	color:pink;
+	font-size:40px;
+	text-align: left;
+	transform: skew(10deg);
+	
+}
 
 
 .jj {
