@@ -1,11 +1,11 @@
+.date {
+	color:pink;
+	font-size:100px;
+	text-align: left;
+	padding-top: 200px;
+	transform: skew(10deg);
 
-
-.col {
-
-border: 1px;
-width:200px;
 }
-
 
 
 
@@ -20,14 +20,7 @@ body {
 
 
 
-.date {
-	color:pink;
-	font-size:100px;
-	text-align: left;
-	padding-top: 200px;
-	transform: skew(10deg);
 
-}
 
 .title {
 	color:pink;
