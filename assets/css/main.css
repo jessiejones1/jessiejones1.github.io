@@ -9,7 +9,22 @@ body {
 }
 
 
+.about {
+	color: pink;
+	font-size:40px;
+	text-align: left;
+	transform: skew(10deg);
 
+}
+
+.info {
+	color:pink;
+	font-size:10px;
+	text-align: left;
+	padding-top: 4vh;
+	margin-left: 3vw;
+
+}
 
 
 
@@ -34,13 +49,7 @@ body {
 }
 
 
-.about {
-	color:pink;
-	font-size:40px;
-	text-align: left;
-	transform: skew(10deg);
 
-}
 
 
 .jj {
@@ -65,14 +74,9 @@ body {
 	transform: skew(10deg);
 }
 
-.about {
-	color:pink;
-	font-size:40px;
-	text-align: left;
-	padding-top: 4vh;
-	margin-left: 3vw;
 
-}
+
+
 
 .xyz1 {
 	color:lightpink;
