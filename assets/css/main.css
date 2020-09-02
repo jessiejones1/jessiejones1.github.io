@@ -5,7 +5,7 @@ body {
 	font-size: 80px;
 	background-color:#DC143C;
 	text-transform: uppercase;
-	font-weight: bold
+	font-weight: bold;
 }
 
 
@@ -15,7 +15,7 @@ body {
 
 .dp {
 	color:pink;
-	font-size:40px;
+	font-size:20px;
 	text-align: left;
 	transform: skew(10deg);
 	margin-left: 3vw;
