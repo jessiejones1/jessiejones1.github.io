@@ -22,11 +22,12 @@ body {
 
 
 
-.title {
+.dp {
 	color:pink;
 	font-size:40px;
 	text-align: left;
 	transform: skew(10deg);
+	margin-left: 3vw;
 }
 
 
@@ -37,6 +38,7 @@ body {
 	text-align: left;
 	padding-top: 200px;
 	transform: skew(10deg);
+	margin-left: 3vw;
 
 }
 
