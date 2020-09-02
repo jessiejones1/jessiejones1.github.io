@@ -1,13 +1,4 @@
 
-.MADA {
-	color:pink;
-	font-size:240px; 
-	text-align: left;
-	text-shadow: 0 0 9px white;
-	transform: skew(10deg);
-}
-
-
 
 body {
 	font-family: Arial black,serif;
@@ -65,6 +56,24 @@ body {
 
 }
 
+
+.MADA {
+	color:pink;
+	font-size:240px; 
+	text-align: left;
+	text-shadow: 0 0 9px white;
+	transform: skew(10deg);
+}
+
+.about {
+	color:pink;
+	font-size:100px;
+	text-align: left;
+	padding-top: 200px;
+	transform: skew(10deg);
+	margin-left: 3vw;
+
+}
 
 .xyz1 {
 	color:lightpink;
