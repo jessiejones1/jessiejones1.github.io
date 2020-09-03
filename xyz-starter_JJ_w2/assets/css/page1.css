@@ -83,13 +83,13 @@ body {
 
 	text-align: left;
 
-	padding-top: 100px;
+	padding-top: 70vw;
 	margin-left: 5vw;
 }
 
 
 .title {
-	font-size:60px;
+	font-size:4vw;
 	font-family: Blippo;
 
 	text-align: left;
@@ -98,7 +98,7 @@ body {
 
 
 .MADA {
-	font-size:200px; 
+	font-size:6vh; 
 	font-family: Blippo;
 	font-weight:bold;
 
@@ -106,7 +106,7 @@ body {
 
 	text-align: left;
 
-	padding-top: 10px;
+	padding-top: 2vw;
 	margin-left: 5vw;
 }
 
@@ -115,12 +115,12 @@ body {
 
 
 .Make {
-	font-size: 80px;
+	font-size: 2vw;
 	font-family: Blippo;
 	font-weight:bold;
 	
 	padding-left:10vw;
-	padding-top: 50px;
+	padding-top: 5vh;
 	
 	animation: make 10s infinite alternate;
 
@@ -128,7 +128,7 @@ body {
 
 
 .word1 {
-	font-size: 120px;
+	font-size: 60vw;
 	font-family: Arial black;
 	font-weight:bold;
 	
@@ -143,7 +143,7 @@ body {
 }
 
 .word2 {
-	font-size: 120px;
+	font-size: 60vw;
 	font-family: Arial black;
 	font-weight:bold;
 	
@@ -157,7 +157,7 @@ body {
 
 
 .Again {
-	font-size: 80px;
+	font-size: 5vw;
 	font-family: Blippo;
 	font-weight:bold;
 
@@ -169,26 +169,26 @@ body {
 }
 
 .dash {
-	font-size: 60px;
+	font-size: 2vw;
 	font-family: Arial black;
 
 	color:salmon;
 
 	text-align:right;
 
-	padding-bottom: -40px;
+/*	padding-bottom: -40px;*/
 }
 
 
 .word3 {
-	font-size: 60px;
+	font-size: 2vw;
 	font-family: Arial;
 
-	color:salmon;
+	color:goldenrod;
 
 	text-align:right;
 
-	padding-bottom: -40px;
+/*	padding-bottom: -40px;*/
 	padding-right:10vw;
 }
 
