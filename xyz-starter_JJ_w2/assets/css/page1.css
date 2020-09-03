@@ -80,6 +80,7 @@ body {
 .date {
 	font-size:80px;
 	font-family: Blippo;
+	font-weight:bold;
 
 	text-align: left;
 
@@ -93,7 +94,7 @@ body {
 	font-family: Blippo;
 
 	text-align: left;
-/*	margin-left: 5vw;*/
+	margin-left: 5vw;
 }
 
 
