@@ -115,7 +115,7 @@ body {
 
 
 .Make {
-	font-size: 2vw;
+	font-size: 5vw;
 	font-family: Blippo;
 	font-weight:bold;
 	
@@ -189,7 +189,7 @@ body {
 	text-align:right;
 
 /*	padding-bottom: -40px;*/
-	padding-right:10vw;
+	padding-right:5vw;
 }
 
 
