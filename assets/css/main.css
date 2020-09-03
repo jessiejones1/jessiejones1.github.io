@@ -11,7 +11,7 @@ body {
 
 .about {
 	color: pink;
-	font-size:2vw;
+	font-size: 2vw;
 	text-align: left;
 	transform: skew(10deg);
 
@@ -19,7 +19,7 @@ body {
 
 .info {
 	color:pink;
-	font-size:2vw;
+	font-size: 2vw;
 	text-align: left;
 	padding-top: 4vh;
 	margin-left: 3vw;
@@ -40,7 +40,7 @@ body {
 
 .welcome {
 	color:pink;
-	font-size:10vw;
+	font-size: 10vw;
 	text-align: left;
 	padding-top: 10vw;
 	transform: skew(10deg);
@@ -68,7 +68,7 @@ body {
 
 .MADA {
 	color:pink;
-	font-size:10vw; 
+	font-size: 10vw; 
 	text-align: left;
 	text-shadow: 0 0 9px white;
 	transform: skew(10deg);
