@@ -4,75 +4,61 @@
 
 	body{
 		background-color: #8B0000;
-			}
+	}
 
 
 
 
 	.MADA {
 		font-size:40px; 
-		font-family: Blippo;
+		font-family:Blippo;
 		font-weight:bold;
-
-	/*	transform: skew(180deg);*/
-/*		transform: rotate(90deg);*/
-
+		/*transform: skew(180deg);*/
+		/*transform: rotate(90deg);*/
 		color: #8B0000;
 		text-shadow: 0 0 9px white;
-	
-	/*	padding-right:100px;*/
-	/*	padding-top: 100px;*/
-	
-		text-align: right;
-	
-		position: fixed;
-		top: 5%;
-		right: 30px;
-				}
+		/*padding-right:100px;*/
+		/*padding-top: 100px;*/
+		text-align:right;
+		position:fixed;
+		top:5%;
+		right:30px;
+	}
 
 
 	.title    {
 		font-size:20px; 
-		font-family: Blippo;
+		font-family:Blippo;
 		font-weight:bold;
-
-	/*	transform: skew(180deg);*/
-/*		transform: rotate(90deg);*/
-
-		color: #8B0000;
+		/*transform: skew(180deg);*/
+		/*transform: rotate(90deg);*/
+		color:#8B0000;
 		text-shadow: 0 0 9px white;
-	
-	/*	padding-right:100px;*/
-	/*	padding-top: 100px;*/
-	
-		text-align: right;
-	
-		position: fixed;
+		/*padding-right:100px;*/
+		/*padding-top: 100px;*/
+		text-align:right;
+		position:fixed;
 		top:2%;
-		right: 30px;
-				}
+		right:30px;
+	}
 
 
 
 	.date    {
 		font-size:200px; 
-		font-family: Blippo;
+		font-family:Blippo;
 		font-weight:bold;
-	/*	transform: skew(40deg);*/
+		/*transform: skew(40deg);*/
 		transform: rotate(90deg);
-
 		color: #8B0000;
 		text-shadow: 0 0 9px white;
-
-	/*	padding-right:100px;*/
+		/*padding-right:100px;*/
 		padding-top: 100px;
-
-
 		text-align: right;
 		position: fixed;
 		top: 35%;
 		right: -300px;
-				}
+	}
 
 
 
@@ -80,124 +66,112 @@
 
 	.Make {
 		font-size:8vh; 
-		font-family: Arial;
+		font-family:Arial;
 		font-weight:bold;
-	/*	transform: skew(40deg);*/
-
+		/*transform: skew(40deg);*/
 		color: black;
-
 		padding-left:6vw;
-		padding-top: 70px;
-
-		text-align: left;
-				}
+		padding-top:70px;
+		text-align:left;
+	}
 
 
 
 	.word1and2 {
-		font-size: 16vh; 
-		font-family: times new roman;
+		font-size:16vh; 
+		font-family:times new roman;
 		font-weight:bold;
 		display: block;
 		transform: skew(10deg);
-
 		color: black;
-
-		padding-top: 70px;
-
-		text-align: left;
-				}
+		padding-top:70px;
+		text-align:left;
+	}
 
 
 	.word1  {
-		padding-left: 10vw;
-				}
+		padding-left:10vw;
+	}
 
 	.word2  {
-		padding-left: 20vw;
-				}
+		padding-left:20vw;
+	}
 
 
 
 	.Again   {
 		font-size:8vh;
-		font-family: Arial;
+		font-family:Arial;
 		font-weight:bold;
-	/*	transform: skew(40deg);*/
-
+		/*transform: skew(40deg);*/
 		color: black;
-
 		padding-left:6vw;
-		padding-top: 70px;
-
-
-		text-align: left;
-			}
+		padding-top:70px;
+		text-align:left;
+	}
 
 
 
 	.dash  {
 		font-size:80px; 
-		font-family: Arial
+		font-family:Arial
 		font-weight:bold;
-		transform: skew(10deg);
-
-		color: #000000;
-
+		transform:skew(10deg);
+		color:#000000;
 		padding-left:6vw;
-		padding-top: 70px;
-
-		text-align: left;
-			}
+		padding-top:70px;
+		text-align:left;
+	}
 
 
 
 	.backword   {
 		font-size:30px; 
-		font-family: Blippo;
-		font-weight: bold;
-		transform: skew(10deg);
-
-		color: #B22222;
-
+		font-family:Blippo;
+		font-weight:bold;
+		transform:skew(10deg);
+		color:#B22222;
 		padding-left:1vw;
 		/*padding-top: 70px;*/
-
 		text-align: left;
-		margin-left: -700px;
-		margin-right: -700px;
-			}
+		margin-left:-700px;
+		margin-right:-700px;
+	}
 
 
 	/*
 	.word3  {
 		font-size:10vh;
-		font-family: Arial;
+		font-family:Arial;
 		font-weight:bold;
-		transform: skew(10deg);
-
-		color: #000000;
-
+		transform:skew(10deg);
+		color:#000000;
 		padding-left:6vw;
-		padding-top: 70px;
+		padding-top:70px;
+		text-align:left;
 
-		text-align: left;
-
-			}*/
+	}*/
 
 
 	.box {
-		width: 100%;
-		height: 100%;
+		width:100%;
+		height:100%;
 		position:fixed;
-		z-index: -10px;		
-		top: -10px;
-		bottom: -10px;
+		z-index:-10;		
+		top:-10px;
+		bottom:-10px;
 		white-space: wrap;
 		overflow:hidden;
+	}
 
 
-			}
+
+
+
+
+
+
+
 
 
 

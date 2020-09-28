@@ -1,194 +1,137 @@
-
+/*
 body {
 	background-color: tomato;
-}
+}*/
 
-
+/*
 
 .box {
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	z-index: -10;
-	color: pink;
+	background-color: pink;
+}*/
+/*.box {
+
+}*/
+
+.box-a {
+	width:10px;
+	height:10px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:-9;
+	background-color:green;
+	align-items:left;
 }
 
-.box1 {
-	width: 10%;
-	height: 10%;
-	position: fixed;
-	z-index: -9;
-	color: green;
-	align-items: left;
+.box-b {
+	width:90px;
+	height:90px;
+	position:fixed;
+	top:90px;
+	left:90px;
+	z-index:-9;
+	color:black;
+	align-items:left;
 }
 
-.box2 {
-	width: 9%;
-	height: 9%;
-	position: fixed;
-	z-index: -8;
-	color: black;
-	align-items: left;
-}
-
-.box3 {
-	width: 8%;
-	height: 8%;
-	position: fixed;
-	z-index: -7;
-	color: black;
-	align-items: center;
-}
-
-.box4 {
-	width: 7%;
-	height: 7%;
-	position: fixed;
-	z-index: -6;
-	color: orange;
-	align-items: left;
-}
-
-.box5 {
-	width: 6%;
-	height: 6%;
-	position: fixed;
-	z-index: -5;
-	color: white;
-	align-items: right;
-}
-
-.box6 {
-	width: 5%;
-	height: 5%;
-	position: fixed;
-	z-index: -4;
-	color: red;
-	align-items: left;
-}
-
-.box7 {
-	width: 4%;
-	height: 4%;
-	position: fixed;
-	z-index: -3;
-	color: blue;
-	align-items: right;
+.box-c {
+	width:10px;
+	height:10px;
+	position:fixed;
+	top:20px;
+	left:20px;
+	z-index:-9;
+	align-items:center;
 }
 
 
 .date {
 	font-size:80px;
-	font-family: Blippo;
+	font-family:Blippo;
 	font-weight:bold;
-
-	text-align: left;
-
+	text-align:left;
 /*	padding-top: 70vw;*/
-	margin-left: 5vw;
+	margin-left:5vw;
 }
 
 
 .title {
 	font-size:4vw;
-	font-family: Blippo;
-
-	text-align: left;
-	margin-left: 5vw;
+	font-family:Blippo;
+	text-align:left;
+	margin-left:5vw;
 }
 
 
 .MADA {
 	font-size:16vw; 
-	font-family: Blippo;
+	font-family:Blippo;
 	font-weight:bold;
-
 	color: #B22222;
-
-	text-align: left;
-
+	text-align:left;
 /*	padding-top: 2vw;*/
 	margin-left: 5vw;
 }
 
 
-
-
-
 .Make {
-	font-size: 5vw;
-	font-family: Blippo;
+	font-size:5vw;
+	font-family:Blippo;
 	font-weight:bold;
-	
 	padding-left:10vw;
-	padding-top: 5vh;
-	
+	padding-top:5vh;
 	animation: make 10s infinite alternate;
-
 }
 
 
 .word1 {
-	font-size: 10vw;
-	font-family: Arial black;
+	font-size:10vw;
+	font-family:Arial black;
 	font-weight:bold;
-	
 	color:goldenrod;
-	
 	text-align:center;
-
 	padding-left:30vw;
-
-
-
 }
 
+
 .word2 {
-	font-size: 10vw;
-	font-family: Arial black;
+	font-size:10vw;
+	font-family:Arial black;
 	font-weight:bold;
-	
 	color:goldenrod;
-
 	text-align:center;
-
 	padding-left:20vw;
 }
 
 
-
 .Again {
-	font-size: 5vw;
-	font-family: Blippo;
+	font-size:5vw;
+	font-family:Blippo;
 	font-weight:bold;
-
-	text-align: right;
-
+	text-align:right;
 	padding-right:10vw;
-
 	animation: again 10s infinite alternate;
 }
 
+
 .dash {
-	font-size: 2vw;
-	font-family: Arial black;
-
+	font-size:2vw;
+	font-family:Arial black;
 	color:salmon;
-
 	text-align:right;
-
 /*	padding-bottom: -40px;*/
 }
 
 
 .word3 {
-	font-size: 2vw;
-	font-family: Arial;
-
+	font-size:2vw;
+	font-family:Arial;
 	color:goldenrod;
-
 	text-align:right;
-
 /*	padding-bottom: -40px;*/
 	padding-right:5vw;
 }
@@ -208,7 +151,6 @@ body {
 	100%{
 		margin-left:-300px;
 	}
-
 }
 
 
@@ -226,7 +168,6 @@ body {
 	100%{
 		margin-right:-300px;
 	}
-
 }
 
 

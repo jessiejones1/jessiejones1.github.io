@@ -13,8 +13,8 @@ body {
 	color: pink;
 	font-size: 2vw;
 	text-align: left;
-	transform: skew(10deg);
-
+/*	transform: skew(10deg);
+*/
 }
 
 .info {
@@ -27,7 +27,7 @@ body {
 }
 
 
-
+ 
 .dp {
 	color: pink;
 	font-size: 1vw;
