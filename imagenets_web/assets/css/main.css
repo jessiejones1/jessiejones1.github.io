@@ -4,6 +4,8 @@ body {
 	cursor: url(cursor.png), auto;
 }
 
+	a {text-decoration:none;}
+
 	.title {
 		font-family:Palatino Linotype;
 		font-size:70px;
@@ -30,7 +32,7 @@ body {
 		margin-bottom:3%;
 	}
 
-	/* Start buttons */
+/* Start Nav */
 	.nav {
 		font-family:Lucida Grande;
 		width:89%;
@@ -58,7 +60,7 @@ body {
 		flex-wrap:wrap;
 	}
 
-
+/*	Start reset & why*/
 	.btn-reset {
 		margin-left:5.5%;
 		margin-right:5%;
@@ -75,9 +77,7 @@ body {
 		margin-left:5.5%;
 		margin-right:5%;*/
 	}
-	/* End buttons */
 
-/*	Start why*/
 	.why {
 		font-family:Lucida Grande;
 		font-style:italic;
@@ -110,15 +110,6 @@ body {
 		display:block;
 	}
 
-	.why link {
-		text-decoration:none;
-		background-color:black;
-		color:#ffd868;
-		cursor:pointer;
-		text-shadow: 0 0 300px black;
-		box-shadow: 5px 5px 10px black;
-	}
-
 	.credits {
 		font-family:Lucida Grande;
 		padding-top:2%;
@@ -141,9 +132,35 @@ body {
 		line-height:30px;
 	}
 
-/*	End why*/
+	.btn:hover {
+		background-color:black;
+		color:#ffd868;
+		cursor:pointer;
+		text-shadow: 0 0 300px black;
+		box-shadow: 5px 5px 10px black;
+	}
 
-	/*container-one info*/
+	.why a {
+		background-color:black;
+		color:#ffd868;
+		cursor:pointer;
+		text-shadow: 0 0 300px black;
+		box-shadow: 5px 5px 10px black;
+	}
+
+	.why a:hover {
+		text-decoration:none;
+		background-color:black;
+		color:#ffd868;
+		cursor:pointer;
+		text-shadow: 0 0 300px black;
+		box-shadow: 5px 5px 10px black;
+	}
+
+/*		End reset & why*/
+/* 	End Nav */
+
+	/* Start adventure images*/
 	.container-one {
 		display:flex;
 		flex-wrap:wrap;
@@ -190,10 +207,10 @@ body {
 		width:100%;
 		box-shadow: 5px 5px 10px black;
 	}
-	/*End container-one*/
+	/* End adventure images*/
 
 
-	/*container-two*/
+	/*Start Archive*/
 	.container-two {
 		display:flex;
 		flex-wrap:wrap;
@@ -240,25 +257,7 @@ body {
 	.co:hover {
 		display:none;
 	}
-	/*End container-two info*/
-
-
-	.btn:hover {
-		background-color:black;
-		color:#ffd868;
-		cursor:pointer;
-		text-shadow: 0 0 300px black;
-		box-shadow: 5px 5px 10px black;
-	}
-
-	.why link:hover {
-		text-decoration:none;
-		background-color:black;
-		color:#ffd868;
-		cursor:pointer;
-		text-shadow: 0 0 300px black;
-		box-shadow: 5px 5px 10px black;
-	}
+	/*End Archive*/
 
 
 	/*Start Background*/
