@@ -5,19 +5,19 @@ $(document).ready(function(){
 
 	$(".why").addClass("hide");
 
-	$(".credits").addClass("hide");
+
+	$(".btn-menu").click(function(){
+		$(".menu").slideToggle();
+	});
+
 
 	$(".btn-skin").click(function(){
 		$(".con").addClass("hide");
 		$(".why").addClass("hide");
+		// $(".credits").addClass("hide");
 		$(".item").removeClass("hide");
 		$(".con.skin").removeClass("hide");
 	});
-
-	// $(".btn-kids").click(function(){
-	// 	$(".con").addClass("hide");
-	// 	$(".con.kids").removeClass("hide");
-	// });
 
 	$(".btn-cook").click(function(){
 		$(".con").addClass("hide");
