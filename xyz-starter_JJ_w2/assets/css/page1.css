@@ -1238,16 +1238,100 @@
 	background-color:lightskyblue;
 	align-items:left;
 }
+
+.box-di {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:10px;
+	left:52px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
+
+.box-dj {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:89px;
+	left:500px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
+
+.box-dk {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:0px;
+	left:990px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
+
+.box-dl {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:300px;
+	left:900px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
+
+.box-dm {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:330px;
+	left:380px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
+
+.box-dn {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:100px;
+	left:1200px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
+
+.box-do {
+	width:390px;
+	height:390px;
+	position:fixed;
+	top:500px;
+	left:600px;
+	z-index:-8;
+	opacity: 0.3;
+	background-color:red;
+	align-items:left;
+}
 /*End Boxes*/
 
 /*Start Opacity Box*/
-.box-dh {
+.box-dz {
 	width:100%;
 	height:100%;
 	position:fixed;
 	top:0px;
 	left:0px;
-	z-index:-8;
+	z-index:-2;
 	opacity: 0.5;
 	background-color:white;
 	align-items:left;
