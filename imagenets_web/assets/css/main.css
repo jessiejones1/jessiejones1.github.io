@@ -110,6 +110,15 @@ body {
 		display:block;
 	}
 
+	.why link {
+		text-decoration:none;
+		background-color:black;
+		color:#ffd868;
+		cursor:pointer;
+		text-shadow: 0 0 300px black;
+		box-shadow: 5px 5px 10px black;
+	}
+
 	.credits {
 		font-family:Lucida Grande;
 		padding-top:2%;
@@ -235,6 +244,15 @@ body {
 
 
 	.btn:hover {
+		background-color:black;
+		color:#ffd868;
+		cursor:pointer;
+		text-shadow: 0 0 300px black;
+		box-shadow: 5px 5px 10px black;
+	}
+
+	.why link:hover {
+		text-decoration:none;
 		background-color:black;
 		color:#ffd868;
 		cursor:pointer;
