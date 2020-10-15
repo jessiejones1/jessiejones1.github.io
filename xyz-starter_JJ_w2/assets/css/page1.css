@@ -1,9 +1,6 @@
 
-/*body {
-	background-color:steelblue;
-}*/
 
-/*start boxes*/
+/*start background*/
 .box-a {
 	width:130px;
 	height:130px;
@@ -1322,7 +1319,7 @@
 	background-color:red;
 	align-items:left;
 }
-/*End Boxes*/
+/*End Background*/
 
 /*Start Opacity Box*/
 .box-dz {
@@ -1339,6 +1336,7 @@
 /*End Opacity Box*/
 
 
+/*start wording*/
 .date {
 	font-size:3vw;
 	font-family:Blippo;
@@ -1426,10 +1424,10 @@
 /*	padding-bottom: -40px;*/
 	padding-right:5vw;
 }
+/*end wording*/
 
 
-
-
+/*start keyframes*/
 @keyframes make {
 	0%{
 		margin-left:-300px;
@@ -1445,8 +1443,6 @@
 }
 
 
-
-
 @keyframes again {
 	0%{
 		margin-right:-300px;
@@ -1460,7 +1456,7 @@
 		margin-right:-300px;
 	}
 }
-
+/*end keyframes*/
 
 
 
