@@ -22,13 +22,16 @@ body {
 
 	.choose {
 		font-family:Palatino Linotype;
-		color:grey;
+		color:black;
+		font-style:italic;
 		font-size:25px;
+		width:89%;
 		display:flex;
 		text-align:left;
 /*		flex-wrap:wrap;*/
 		padding-top:3%;
-		padding-left:5.5%;
+		padding-left:15px;
+		margin-left:5.5%;
 		margin-bottom:3%;
 	}
 
@@ -67,7 +70,7 @@ body {
 	}
 
 	.btn-why {
-		margin-left:5.5%;
+/*		margin-left:5.5%;*/
 		margin-right:5%;
 /*		padding:15px;*/
 /*		border-radius:1%;*/
@@ -76,6 +79,15 @@ body {
 		padding-left:15px;
 		margin-left:5.5%;
 		margin-right:5%;*/
+	}
+
+	.side-by-side{
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.side-by-side.hide {
+		display:none;
 	}
 
 	.why {
@@ -91,6 +103,7 @@ body {
 	.why-title {
 		padding-top:3%;
 		font-weight:bold;
+		width:100%;
 	}
 
 	.why-body{
@@ -100,6 +113,7 @@ body {
 		width:40%;
 		text-overflow:wrap;
 		line-height:30px;
+		height:100vh;
 	}
 
 	.why.hide {
@@ -114,22 +128,34 @@ body {
 		font-family:Lucida Grande;
 		padding-top:2%;
 		padding-bottom:1.5%;
-		padding-left:5.5%;
+		margin-left:5.5%;
 		font-size:20px;
-		width:89%;
+		width:30%;
 		text-overflow:wrap;
 		line-height:30px;
+		height:100vh;
+	}
+
+	.contact {
+		font-family:Lucida Grande;
+		padding-top:2%;
+		padding-bottom:1.5%;
+/*		margin-left:5.5%;*/
+		font-size:15px;
+/*		width:89%;*/
+		text-overflow:wrap;
+		line-height:19px;
 	}
 
 	.legal{
 		font-family:Lucida Grande;
 		padding-top:2%;
 		padding-bottom:1.5%;
-		padding-left:5.5%;
-		font-size:10px;
-		width:89%;
+/*		padding-left:5.5%;*/
+		font-size:15px;
+/*		width:89%;*/
 		text-overflow:wrap;
-		line-height:30px;
+		line-height:19px;
 	}
 
 	.btn:hover {
@@ -140,16 +166,16 @@ body {
 		box-shadow: 5px 5px 10px black;
 	}
 
-	.why a {
-		background-color:black;
-		color:#ffd868;
+	a {
+		padding:5px;
+/*		background-color:black;*/
+		color:black;
 		cursor:pointer;
-		text-shadow: 0 0 300px black;
-		box-shadow: 5px 5px 10px black;
+		text-shadow: 0 0 30px black;
+/*		box-shadow: 5px 5px 10px black;*/
 	}
 
-	.why a:hover {
-		text-decoration:none;
+	a:hover {
 		background-color:black;
 		color:#ffd868;
 		cursor:pointer;
@@ -164,8 +190,8 @@ body {
 	.container-one {
 		display:flex;
 		flex-wrap:wrap;
-		padding-left:1%;
-		padding-right:1%;
+		padding-left:15px;
+		padding-right:15px;
 		padding-bottom:10%;
 		margin-left:5.4%;
 		margin-right:5.4%;
@@ -176,11 +202,11 @@ body {
 		font-family:Lucida Grande;
 		padding-top:2%;
 		padding-bottom:1.5%;
-		padding-left:2%;
+		padding-left:3%;
 		font-size:15px;
 		width:100%;
 		text-overflow:wrap;
-		line-height:30px;
+		line-height:17px;
 	}
 
 	.con.first {
@@ -274,11 +300,11 @@ body {
 		overflow:hidden;
 	}
 
-	.back {
+	.back img {
 		z-index:-10;
-		width:50%;
-		top:10%;
-		left:10%;
+		width:120vh;
+		top:10vh;
+		left:40vh;
 		position:fixed;
 	}
 	/*End Background*/
@@ -303,22 +329,58 @@ body {
 	/*Start Mobiles*/
 	@media (max-width:500px) {
 
-		.why{
-			width:85%;
-			margin:5.5%;
+		.why {
+			margin-right:0%;
+		    padding-right:0px;
+			display:inline-block;
+			width:100%;
 		}
 
 		.why-title{
 			font-weight:bold;
-		}
-
-
-		.home {
+			display:inline-block;
+			padding-bottom:3%;
+			padding-top:6%;
 			width:100%;
 		}
 
-		.bottom {
-			margin-top:-3%;
+		.why-body {
+			margin-right:0%;
+		    padding-right:0px;
+			display:inline-block;
+			width:100%;
+       		padding-right:15px;
+    		margin-right:5.5%;
+		}
+
+		a {
+			padding:10px;
+			text-shadow: 1px 1px 30px black;
+			padding-left:0px;
+/*			box-shadow: 5px 5px 10px black;*/
+		}
+
+		.side-by-side {
+/*			margin-top:-3%;*/
+			width:100%;
+			display:block;
+		}
+
+		.credits {
+			margin-right:0%;
+		    padding-right:0px;
+			display:block;
+			width:100%;
+    		padding-left:15px;
+    		margin-left:5.5%
+       		padding-right:15px;
+    		margin-right:5.5%;
+    		margin-top:5.5%;
+/*		    margin-top:300%;*/
+		}
+
+		.imnet {
+			font-weight:bold;
 		}
 
 		.con {
@@ -343,7 +405,7 @@ body {
 		}
 
 		.nav {
-			margin-top:10%;
+			margin-top:0%;
 			text-align:left;
 		}
 		
@@ -357,12 +419,25 @@ body {
 
 		.background {
 			font-size:0.6vh;
-	}
+		}
 
-		.nav-mobile {
+		.back img {
+			z-index:-10;
+			width:90%;
+			top:45vw;
+			left:10vw;
+			margin-left:auto;
+			margin-right:auto;
+			position:fixed;
 			display:block;
 		}
 
+		.nav-mobile {
+			display:block;
+			width:100%;
+			margin-left:5.5%;
+			margin-top:1%;
+		}
 	/*End Mobiles*/
 
 
