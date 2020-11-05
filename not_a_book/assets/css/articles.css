@@ -1,0 +1,200 @@
+
+body {
+	background-color:white;
+	color:black;
+	text-align:left;
+	font-size:30px;
+	line-height:30px;
+	text-overflow:wrap;
+}
+
+a {
+	text-decoration:none;
+	text-decoration-color:none;
+	color:white;
+	cursor:pointer;
+	text-align:left;
+	background-color:pink;
+/*	border-radius: pink 1px solid;*/
+	font-size:15px;
+	padding:9px;
+	background-color:pink;
+}
+
+a:hover {
+	background-color:black;
+	color:white;
+	padding:9px;
+/*	border-radius: white 1px solid;*/
+}
+
+h1	{
+	font-family: professor, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:9vw;
+	line-height:12vw;
+	text-align:right;
+	color:pink;
+	margin-top:2%;
+	margin-right:4%;
+	text-overflow:wrap;
+}
+
+h2 {
+	font-family: cairo, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:3vw;
+	line-height:5vw;
+	color:pink;
+	text-align:right;
+	text-overflow:wrap;
+	margin-top:-1%;
+	margin-right:4%;
+}
+
+h3 {
+	font-family: tribute, serif;
+	font-weight:400;
+	font-style:normal;
+	margin-left:10%;
+	font-style:uppercase;
+	margin-bottom:20px;
+	margin-top:15%;
+}
+
+p {
+	width:40%;
+	font-family: mr-eaves-modern, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	margin-left:55%;
+	text-indent:30px;
+}
+
+p.noindent {
+	text-indent:0px;
+}
+
+p.up {
+	margin-top:-7.5%;
+}
+
+p.textup {
+	margin-top:-255px;
+}
+
+p.upup {
+	margin-top:-650px;
+}
+
+	.nav {
+		color:pink;
+		margin-left:5%;
+		margin-top:-8.5%;
+		border:5px white dotted;
+		width:10%;
+		position:absolute;
+		background-color:pink;
+		text-align:center;
+	}
+
+	.btn {
+		margin-left:1vw;
+		margin-right:1vw;
+	}
+
+	.info {
+		text-align:left;
+		margin-top:4vw;
+		margin-left: 4vw;
+	}
+
+	.link {
+		padding:30px;
+		padding-top:20px;
+		text-align:right;
+		width:49%;
+	}
+
+	.info a {
+		padding:30px;
+		font-size:30px;
+	}
+	.info a:hover {
+		padding:30px;
+	}
+
+
+
+	p.quote {
+		font-family: tribute, serif;
+		font-weight:400;
+		font-style:italic;
+		color:grey;
+		margin-left:10%;
+		text-indent:0px;
+		width:35%;
+		margin-top:40px;
+		margin-bottom:30px;
+	}
+
+	p.quote2 {
+}
+
+
+
+
+.underline {
+	border-bottom: 2px black solid;
+	margin-top:8%;
+	margin-bottom:8%;
+	margin-left:25%;
+	width:50%;
+}
+
+
+.vid {
+	width:100%;
+	height:auto;
+}
+
+img {
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:63%;
+	margin-top:17%;
+}
+
+.out {
+	margin:10%;
+	width:34%;
+	margin-top:-115%;
+}
+
+.j_back {
+	z-index:-10;
+	top:0;
+	right:0;
+	margin-top:-7%;
+	margin-bottom:-50%;
+}
+
+.jup_img {
+	margin:10%;
+	width:34%;
+	margin-top:-4%;
+}
+
+
+
+
+
+
+
+
+
+
+

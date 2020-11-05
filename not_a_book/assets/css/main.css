@@ -1,0 +1,61 @@
+
+body {
+	background-color:black;
+	color:pink;
+	text-align:center;
+	font-size:2vw;
+}
+
+a {
+	text-decoration:none;
+	text-decoration-color:none;
+	color:white;
+	cursor:pointer;
+/*	text-shadow: 0 0 30px white;*/
+	padding:5px;
+	text-align:center;
+}
+
+a:hover {
+	background-color:white;
+	color:black;
+	padding:9px;
+	border-radius: white 1px solid;
+}
+
+h1	{
+	font-family: professor, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:9vw;
+	line-height:12vw;
+	text-align:center;
+	color:pink;
+	margin-top:5%;
+}
+
+h2 {
+	font-family: cairo, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:3vw;
+	line-height:5vw;
+	color:pink;
+	text-align:center;
+/*	border-bottom: pink 1px solid;*/
+}
+
+	.nav {
+		color:pink;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:4vw;
+		margin-bottom:4vw;
+		border:10px pink dotted;
+		width:30%;
+	}
+
+	.btn {
+		margin:4vw;
+		text-align:center;
+	}
