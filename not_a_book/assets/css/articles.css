@@ -166,6 +166,7 @@ img {
 	flex-wrap:wrap;
 	margin-bottom:63%;
 	margin-top:17%;
+	box-shadow: 10px 10px 20px black;
 }
 
 .out {
