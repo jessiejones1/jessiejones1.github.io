@@ -1,6 +1,6 @@
 
 body {
-	background-color:white;
+	background-color:#fef7fa;
 	color:black;
 	text-align:left;
 	font-size:30px;
@@ -32,25 +32,27 @@ h1	{
 	font-family: professor, sans-serif;
 	font-weight:400;
 	font-style:normal;
-	font-size:9vw;
-	line-height:12vw;
+	font-size:150px;
+	line-height:160px;
 	text-align:right;
 	color:pink;
-	margin-top:2%;
+	margin-top:6%;
 	margin-right:4%;
+	margin-left:10%;
 	text-overflow:wrap;
+	width:86%;
 }
 
 h2 {
 	font-family: cairo, sans-serif;
 	font-weight:400;
 	font-style:normal;
-	font-size:3vw;
+	font-size:55px;
 	line-height:5vw;
 	color:pink;
 	text-align:right;
 	text-overflow:wrap;
-	margin-top:-1%;
+	margin-top:3%;
 	margin-right:4%;
 }
 
@@ -60,17 +62,18 @@ h3 {
 	font-style:normal;
 	margin-left:10%;
 	font-style:uppercase;
-	margin-bottom:20px;
-	margin-top:15%;
+	margin-top:12%;
 }
 
 p {
-	width:40%;
+	width:48%;
 	font-family: mr-eaves-modern, sans-serif;
 	font-weight:400;
 	font-style:normal;
-	margin-left:55%;
+	margin-left:48%;
 	text-indent:30px;
+	background-color:#fef7fa;
+	padding-left:20px;
 }
 
 p.noindent {
@@ -78,7 +81,7 @@ p.noindent {
 }
 
 p.up {
-	margin-top:-7.5%;
+	margin-top:-9%;
 }
 
 p.textup {
@@ -86,7 +89,11 @@ p.textup {
 }
 
 p.upup {
-	margin-top:-650px;
+	margin-top:-250px;
+}
+
+p.upupup {
+	margin-top:-275px;
 }
 
 	.nav {
@@ -94,7 +101,7 @@ p.upup {
 		margin-left:5%;
 		margin-top:-8.5%;
 		border:5px white dotted;
-		width:10%;
+		width:170px;
 		position:absolute;
 		background-color:pink;
 		text-align:center;
@@ -107,14 +114,14 @@ p.upup {
 
 	.info {
 		text-align:left;
-		margin-top:4vw;
-		margin-left: 4vw;
+		margin-top:10vw;
+		margin-left:10%;
 	}
 
 	.link {
 		padding:30px;
 		padding-top:20px;
-		text-align:right;
+		text-align:left;
 		width:49%;
 	}
 
@@ -126,60 +133,92 @@ p.upup {
 		padding:30px;
 	}
 
-
+	p.bold {
+		font-weight:bold;
+		line-height:35px;
+		width:40%;
+		text-align:center;
+		margin-left:52%;
+	}
 
 	p.quote {
 		font-family: tribute, serif;
 		font-weight:400;
 		font-style:italic;
 		color:grey;
-		margin-left:10%;
+		margin-left:9%;
 		text-indent:0px;
 		width:35%;
 		margin-top:40px;
 		margin-bottom:30px;
 	}
 
-	p.quote2 {
-}
+	p.quoteup {
+		font-family: tribute, serif;
+		font-weight:400;
+		font-style:italic;
+		color:grey;
+		margin-left:9%;
+		text-indent:0px;
+		width:35%;
+		margin-bottom:30px;
+		text-align:center;
+	}
+
+	h3.art2 {
+		 margin-top:60vw;
+		 padding-left:2vw;
+	}
+
+	
 
 
 
-
-.underline {
-	border-bottom: 2px black solid;
-	margin-top:8%;
+.footer {
+	border-bottom: 5px black dotted;
+	margin-top:20%;
 	margin-bottom:8%;
 	margin-left:25%;
 	width:50%;
 }
 
+.bulk {
+	display: flex;
+	flex-wrap: wrap;
+/*	border-top: 1px solid black;*/
+/*	margin-top:100px;*/
+}
 
 .vid {
-	width:100%;
+	width:40%;
 	height:auto;
+	margin-left:5%;
+	margin-top:-30%;
 }
 
 img {
+	box-shadow: 10px 10px 20px grey,
+	 			10px 10px 20px pink;
 	width:100%;
-	display:flex;
-	flex-wrap:wrap;
-	margin-bottom:63%;
-	margin-top:17%;
-	box-shadow: 10px 10px 20px black;
 }
 
-.out {
-	margin:10%;
-	width:34%;
-	margin-top:-115%;
+.bimgs {
+/*	width:50%;*/
+	z-index:-9;
+	top:50%;
+	left:0;
+	display:flex;
+  	flex-wrap:wrap;
+  	margin-top:30vh;
+  	position:absolute;
+  	opacity:0.7;
 }
 
 .j_back {
 	z-index:-10;
 	top:0;
 	right:0;
-	margin-top:-7%;
+	margin-top:60px;
 	margin-bottom:-50%;
 }
 
@@ -189,10 +228,50 @@ img {
 	margin-top:-4%;
 }
 
-
-
-
-
+.out1 {
+	width:50vh;
+	z-index:-9;
+	top:550px;
+	left:10%;
+}
+.out2 {
+	width:40vh;
+	z-index:-10;
+	top:790px;
+	left:20%;
+}
+/*.out3 {
+	width:20%;
+	z-index:-7;
+	top:150%;
+	left:0;
+}*/
+/*.out4 {
+	width:100%;
+	z-index:-12;
+	top:-30%;
+	left:0;
+	opacity:0.1;
+}*/
+.out5 {
+	width:30vh;
+	z-index:-6;
+	top:1435px;
+	left:3%;
+}
+.out6 {
+	width:30vh;
+	z-index:-4;
+	top:1750px;
+	left:10%;
+}
+.out7 {
+	width:30vh;
+	z-index:-7;
+	top:1435px;
+	left:25%;
+	margin-bottom:10%;
+}
 
 
 
