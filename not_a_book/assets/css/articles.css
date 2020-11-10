@@ -48,7 +48,7 @@ h2 {
 	font-weight:400;
 	font-style:normal;
 	font-size:55px;
-	line-height:5vw;
+	line-height:55px;
 	color:pink;
 	text-align:right;
 	text-overflow:wrap;
@@ -272,6 +272,128 @@ img {
 	left:25%;
 	margin-bottom:10%;
 }
+
+
+
+/*MOBILE*/
+	@media (max-width:500px) {
+		.h1mobile {
+			font-size:100px;
+			line-height:110px;
+			text-align:right;
+			color:pink;
+			margin-top:6%;
+			margin-right:5%;
+		}
+		.h2mobile {
+			font-size:40px;
+			line-height:55px;
+			color:pink;
+			text-align:right;
+			text-overflow:wrap;
+			margin-top:3%;
+			margin-right:5%;
+		}
+		.h3mobile {
+			margin-left:10%;
+			margin-top:250px;
+		}
+
+		.nav_mobile {
+			margin-top:30px;
+		}
+
+		.j_back_mobile {
+			margin-top:180px;
+		}
+
+		.info_mobile {
+			margin-left:5%;
+		}
+
+		.link_mobile {
+			font-size:50px;
+			width:100%;
+		}
+
+		.bulk_mobile {
+			margin-top:300px;
+			margin-left:-75%;
+			padding:0px;
+			margin-right:5%;
+		}
+
+		p {
+			width:100%;
+		}
+
+		.vid {
+			width:57%;
+			height:auto;
+			margin-left:45%;
+			margin-right:0px;
+			margin-top:30px;
+		}
+
+		p.bold1 {
+			margin-top:100%;
+		}
+		.bold {
+			padding-left:0px;
+			padding-right:0px;
+			margin-left:52%;
+			padding-bottom:30px;
+		}
+
+		p.bold {
+			margin-left:50%;
+			width:47%;
+		}
+		
+		p.quoteup {
+			width:90%;
+			margin-left:45%;
+			margin-right:5px;
+			margin-top:-40%;
+		}
+
+		p.quote {
+			margin-left:300px;
+			width:100%;
+			margin-top:350px;
+		}
+
+		p.up {
+			margin-top:0px;
+		}
+
+		.footer {
+			width:100%;
+			margin-left:300px;
+			margin-right:10px;
+		}
+
+		.bimgs_mobile {
+			margin-top:85px;
+			width:80%;
+		}
+
+		.out2 {
+			top:690px;
+		}
+		.out6 {
+			margin-top:2100px;
+		}
+		.out5 {
+			margin-top:1850px;
+		}
+		.out7 {
+			margin-top:2100px;
+		}
+	}
+
+
+
 
 
 
