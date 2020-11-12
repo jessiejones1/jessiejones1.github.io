@@ -114,6 +114,20 @@
 		.imagenets:active {
 			background-color:white;
 		}
+		.book:hover {
+			text-shadow: 0 0 50px lightpink,
+						 0 0 30px white;
+		}
+		.book:active {
+			background-color:white;
+		}
+		.me:hover {
+			text-shadow: 0 0 50px lightpink,
+						 0 0 30px white;
+		}
+		.me:active {
+			background-color:white;
+		}
 /*	End Nav*/
 
 
@@ -137,7 +151,7 @@
 	.copy{
 	}
 		
-		.info-task-heading{
+		.heading{
 		color:pink;
 		font-size:2.5vw;
 		margin-left:6.2vw;
@@ -145,45 +159,16 @@
 		line-height:1.5vw;
 		}
 
-		.info-task{
+		.content {
 		color:pink;
 		font-size:1.1vw;
 		margin-left:6.2vw;
 		margin-top:1vw;
-		line-height:1.5vw;
-		}
-
-		.xyz-task-heading{
-		color:pink;
-		font-size:1.8vw;
-		margin-left:6.3vw;
-		margin-top:3vw;
-		line-height:1.5vw;
-		}
-
-		.info-xyz{
-		color:pink;
-		font-size:1.1vw;
-		margin-left:6.2vw;
-		margin-top:1vw;
-		line-height:1.5vw;
-		}
-
-		.imagenets-task-heading{
-		color:pink;
-		font-size:1.8vw;
-		margin-left:6.2vw;
-		margin-top:3vw;
 		line-height:1.5vw;
 		}
 		
 		.info-imagenets{
-		color:pink;
-		font-size:1.1vw;
-		margin-left:6.2vw;
-		margin-top:1vw;
 		margin-bottom:5vw; 
-		line-height:1.5vw;
 		}
 /*	End info*/
 
